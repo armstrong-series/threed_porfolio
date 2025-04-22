@@ -31,6 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import harveyteck from './company/harveyteck.png';
+import techhubsquare from './company/techhubsquare.png';
 import vue from './tech/vue.png';
 import mysql from './tech/mysql.png';
 import azure from './tech/Azure-Logo.png';
@@ -40,6 +41,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import api from './tech/api.png';
 import tripguide from "./tripguide.png";
+import facedrip from "./facedrip.png";
+import easyspend from "./easyspend.png";
+import adasuite from "./adasuite.png"
+
 
 export {
   logo,
@@ -52,6 +57,10 @@ export {
   azure,
   api,
   harveyteck,
+  techhubsquare,
+  adasuite,
+  facedrip,
+  easyspend,
   creator,
   mobile,
   web,

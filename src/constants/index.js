@@ -9,13 +9,15 @@ import {
     meta,
     azure,
     shopify,
-    carrent,
+    adasuite,
     laravel,
     linux,
     vue,
-    jobit,
     tripguide,
     harveyteck,
+    techhubsquare,
+    easyspend,
+    facedrip,
     api,
     mysql,
     qwikcountr,
@@ -45,8 +47,8 @@ import {
       icon: web,
     },
     {
-      title: "Vuejs Developer",
-      icon: mobile,
+      title: "React Developer",
+      icon: web,
     },
     {
       title: "Backend Engineer",
@@ -166,11 +168,26 @@ import {
       company_name: "Everview",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - Nov-2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+
+    {
+      title: "Fullstack Engineer",
+      company_name: "Techubsquare Inc.",
+      icon: techhubsquare,
+      iconBg: "#E6DEDD",
+      date: "Jan 2024 - January-2025",
+      points: [
+        "Build Saas API (REST and GrapQL) for cross platform applications",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Conducting Sprint planning  with the project manager.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -205,16 +222,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Facedrip",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A video automation and email marketing software. It has CRM, lead generation features. A chrome extension feature that helps to share video and get real time analytics",
       tags: [
         {
-          name: "react",
+          name: "vue",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
@@ -222,16 +239,16 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/armstrong-series",
+      image: facedrip,
+      source_code_link: "https://facedrip.io",
     },
     {
-      name: "Job IT",
+      name: "ADASuite",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This application ensure Americans with Disabilities can surf the internet using built in widget that aids this . It also have GDPR compliance features and more ",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
@@ -239,12 +256,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Php",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: adasuite,
+      source_code_link: "https://github.com/armstrong-series/adasuite",
     },
     {
       name: "Trip Guide",
@@ -266,6 +283,28 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+    },
+
+    {
+      name: "Easyspend",
+      description:
+        "Mobile Banking app that enables banking as easy as possible. It contains receiving and transferring money across multiple banks in Nigeria, virtual POS using NFC technology, buying and selling of Bitcoins and Altcoins",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "laravel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: easyspend,
+      source_code_link: "https://github.com/paybuymaxlimited/easyspend-api",
     },
   ];
   

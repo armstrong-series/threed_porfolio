@@ -38,9 +38,9 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]">
-        I'm a skilled software development and devOps engineer. I build B2B applications, manage servers in cloud infrastructure.
-        Proficient in Php, Java, Javascript, Docker, Git, Kubenetes and other linux-based cloud infrastructure. I'm good with backend frameworks like
-        Laravel and Springboot. Database: relational and non-relational database like mySQL, MongoDB and PostgreSQL. Build API architectural infrastructure
+        I'm a professional software engineer with DevOps experience. I build B2B applications, manage servers in cloud infrastructure.
+        Proficient in Php, Nodejs, Javascript, Docker, Git, Kubenetes and other linux-based cloud infrastructure. I'm good with backend languages and frameworks like
+        Laravel(Php) and Express/Nestjs(Nodejs). Database: relational and non-relational database like mySQL, MongoDB and PostgreSQL. Build API architectural infrastructure
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
